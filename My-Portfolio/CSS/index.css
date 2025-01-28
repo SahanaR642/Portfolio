@@ -1,0 +1,28 @@
+html , body{
+    overflow-x: hidden;
+}
+
+body {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(135deg, rgba(238, 238, 238, 1) 0%, rgb(171, 240, 200) 50%, rgba(240, 248, 255, 1) 100%);
+
+    font-family: "IBM Plex Sans";
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.proj li{
+    list-style: square;
+}
+
+
+

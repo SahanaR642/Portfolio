@@ -1,0 +1,263 @@
+.firstsection {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 82vh;
+    margin-top: 40px;
+}
+
+.firstsection>div {
+    width: 40%;
+}
+
+.leftsection {
+    margin: 110px 0;
+    font-size: 3rem;
+}
+
+
+
+.rightsection img {
+    width: 80%;
+    margin-left: 120px;
+    padding-top: 17px;
+}
+
+#backToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    background-color:transparent;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    filter: drop-shadow(rgb(0,0,0,0.3));
+    transition: all 0.3s ease;
+
+}
+
+#backToTopBtn:hover {
+    scale: 1.2;
+    
+}
+
+#backToTopBtn img {
+    width: 50px;
+    height: 50px;
+    filter: drop-shadow(2px 2px 2px rgb(0,0,0,0.3));
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.top:hover {
+    scale: (1.5);
+}
+
+.about-sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80vw;
+    font-weight: 1000px;
+}
+
+.about {
+    width: 80vw;
+    margin-top: 10px;
+    font-size: 1.3em;
+    text-align: justify;
+    text-indent: 40px;
+}
+
+.bold {
+    font-weight: bold;
+    color: #000;
+}
+
+.purple {
+    color: rgb(0, 0, 0);
+}
+
+main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 2px;
+    margin: 40px 80px;
+}
+
+#element {
+    color: rgb(85, 11, 153);
+}
+
+
+hr {
+    background-color: rgb(32, 32, 82);
+    margin-top: 35px;
+}
+
+.edu-al {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.roadmap {
+    height: 50%;
+    width: 60%;
+    transform: scaleX(2);
+}
+
+.education>p {
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 0px;
+}
+
+.lang {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 80vw;
+}
+
+.logos {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    gap: 20px;
+    overflow: auto;
+    padding-bottom: 10px;
+}
+
+.logos>img:hover{
+    transform: scale(1.1);
+}
+
+.logos>img{
+    transition: transform 0.3s ease;
+}
+
+.secondsection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    font-weight: 1000px;
+}
+
+.workex{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 80vw;
+    font-weight: 1000px;
+    gap: 10px;
+    overflow: wrap;
+}
+
+.secondsection>p {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.work {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.hms {
+    width: 35vw;
+    height: 35vh;
+    background: linear-gradient(135deg,
+            rgba(220, 235, 245, 1) 0%,
+            rgba(255, 255, 255, 1) 100%);
+    box-shadow: palevioletred;
+    border-radius: 10px;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.hmsp {
+    display: block;
+}
+
+.clone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.clone:hover{
+    transform: scale(1.1);
+}
+
+.clone2:hover{
+    transform: scale(1.1);
+    z-index: 10;
+}
+
+
+.text {
+    font-size: 1.5em;
+}
+
+.netflix {
+    object-fit: fill;
+    height: 35vh;
+    width: 35vw;
+}
+
+.hms::-webkit-scrollbar {
+    display: none;
+}
+
+.hms span {
+    font-size: 20px;
+    font-weight: 500;
+    text-wrap: pretty;
+    position: static;
+    text-decoration: underline;
+}
+
+.hms ul li {
+    list-style-type: disc;
+}
+
+a {
+    color: black;
+}
+
+.src {
+    height: 17px;
+    width: 17px;
+    padding-top: 5px;
+}
+
+.animate {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.animate.active {
+    opacity: 1;
+    transform: translateY(0);
+}
