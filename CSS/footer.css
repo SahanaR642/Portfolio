@@ -1,0 +1,33 @@
+.foot {
+    height: fit-content;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.logo-item {
+    text-align: center;
+}
+
+.logo-item img {
+    transition: transform 0.2s;
+}
+
+.logo-item img:hover {
+    transform: scale(1.1);
+}
+
+.logo-item p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.logos::-webkit-scrollbar {
+    display: none;
+}
